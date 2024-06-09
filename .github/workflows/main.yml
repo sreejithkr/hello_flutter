@@ -17,9 +17,8 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '2.x'  # Adjust Flutter version as needed
+          flutter-version: '3.2.4'  # Adjust Flutter version as needed
           channel: 'stable'   
-          dart-version: '2.16.2'  # Adjust Flutter version as needed
 
       - name: Cache dependencies
         uses: actions/cache@v2
